@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Open+Sans+Condensed:ital,wght@1,300&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Josefin+Sans:wght@319&family=Open+Sans+Condensed:ital,wght@1,300&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Josefin+Sans:ital,wght@0,319;1,100&family=Open+Sans+Condensed:ital,wght@1,300&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Josefin+Sans:ital,wght@0,319;1,100&family=Merriweather+Sans:wght@300&family=Open+Sans+Condensed:ital,wght@1,300&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+        .contener{
+        background-color: rgb(195, 230, 230);
+        overflow: hidden;
+        }
+        .to{
+            font-family: 'Fruktur', cursive;
+        }
+        .contener a{
+            float: left;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; /* for removing link identifier */
+            font-size: 17px;
+            font-family: 'Fruktur', cursive;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        }
+        
+        .contener a:hover{
+            background: rgb(194, 213, 221);
+            color: rgb(0, 0, 0);
+        }
+
+        
+        h1{
+            text-align: center;
+            margin: 12px;
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .main{
+            /* display: flex;
+            justify-content: center; */
+            border-radius: 5px;
+            background-color: beige;
+            padding: 20px;
+            margin-left: 20vw;
+            margin-right: 20vw;
+            font-family: 'Fruktur', cursive;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            
+        }
+        
+        input[type=text], select, textarea {
+            width: 100%; /* Full width */
+            padding: 5px; 
+            border: 1px solid rgb(212, 204, 204);
+            border-radius: 4px;
+            margin-top: 6px; 
+            margin-bottom: 16px;
+            resize: vertical
+        }
+
+        .btn{
+            padding: 7px 20px;
+            background-color: rgb(183, 228, 228);
+            border-radius: 4px;
+            border: none;
+            cursor: pointer; /* for Aerro to hand  */
+        }
+
+        .btn:hover{
+            background: rgb(194, 213, 221);
+            color: rgb(160, 19, 255);
+        }
+        
+        .se{
+            margin-left: 20vw;
+            margin-right: 10vw;
+        }
+        .sec{
+            text-align: left;
+            margin: 0;
+            font-family: 'Fruktur', cursive;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        }
+        th, td {
+            border-bottom: 1px solid #ddd;
+            font-family: 'Fruktur', cursive;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        }
+
+        table, th, td {
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            width: 90%;
+        }
+        th{
+            height: 70px;
+        }

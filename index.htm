@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOs List</title>
+    <link rel="stylesheet" href="/todo list/style.css">
+    <script src="/todo list/index.js"></script>
+    
+</head>
+<body>
+    <div class="contener">
+        <a href="#home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Contect">Contect</a>
+        <a href="#News">News</a>
+    </div>
+    <div class="fulll"> 
+    <div class="m">
+    <h1 class="to">TODOs List</h1>
+        <div class="main">
+            <label for="title">Title</label>
+            <input type="text" id="title">
+            <!-- <small id="detail" >Add your work title</small> -->
+
+            <label for="description">description</label>
+            <textarea name="desscription" class="textinput" id="description"  rows="3"></textarea>
+
+            <button type="submit" id="add" class="btn">Add to list</button>
+            <button  id="clear" class="btn btn-primary" onclick="clearStorage()">Clear list</button>
+        </div>
+        <div class="se">
+           <br> <h1 class="sec">Your Items</h1><br>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>SNo</th>
+                          <th>Items Title</th>
+                        <th>Items description</th>
+                        <th>Action</th>
+                    </tr>
+                    <tbody id="tableBody">                             
+                    <tr>
+                        <td>1</td>
+                        <td>Get some coffee</td>
+                        <td>You need coffee as you are coder</td>
+                        <td><button class="btn btn-primary">Delete</button></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
